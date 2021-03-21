@@ -1,15 +1,15 @@
 import React, { FC } from 'react';
 import Left from '../../components/Left';
 
-interface IHomeProps {
+interface IArticlesProps {
 
 }
 
-const Home: FC<IHomeProps> = () => (
+const Articles: FC<IArticlesProps> = () => (
   <>
     <Left />
-    主页
+    文章
   </>
 );
 
-export default Home;
+export default Articles;

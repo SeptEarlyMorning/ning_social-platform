@@ -1,15 +1,15 @@
 import React, { FC } from 'react';
 import Left from '../../components/Left';
 
-interface IHomeProps {
+interface IPinsProps {
 
 }
 
-const Home: FC<IHomeProps> = () => (
+const Pins: FC<IPinsProps> = () => (
   <>
     <Left />
-    主页
+    想法
   </>
 );
 
-export default Home;
+export default Pins;
